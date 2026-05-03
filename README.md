@@ -1,1 +1,1 @@
-# AdLens
+ a live neural network that scores ad creatives using both image (ResNet-50) and text (DistilBERT) features.

@@ -216,3 +216,20 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+echo "" >> .gitignore
+echo "# Data files" >> .gitignore
+echo "data/raw/" >> .gitignore
+echo "*.sqlite" >> .gitignore
+echo "*.csv" >> .gitignore
+echo "" >> .gitignore
+echo "# Model checkpoints" >> .gitignore
+echo "*.pt" >> .gitignore
+echo "*.pth" >> .gitignore
+echo "" >> .gitignore
+echo "# Jupyter checkpoints" >> .gitignore
+echo ".ipynb_checkpoints/" >> .gitignore
+echo "" >> .gitignore
+echo "# Env" >> .gitignore
+echo ".env" >> .gitignore
+echo "venv/" >> .gitignore
